@@ -18,6 +18,7 @@
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.http.whiteboard)',\
 	osgi.identity;filter:='(osgi.identity=agenda.ui)',\
 	osgi.identity;filter:='(&(osgi.identity=org.amdatu.web.resourcehandler)(version>=1.0.1))'
+
 -runbundles: agenda.api;version=latest,\
 	agenda.console;version=latest,\
 	agenda.mongo;version=latest,\
